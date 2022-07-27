@@ -1,0 +1,158 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    background-color: #F4ECF7;
+}
+
+.top-div{
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+}
+
+.priority{
+    width: 20rem;
+    background-color: beige;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 1.50rem;
+    margin-left: 5rem;
+}
+
+.add-delete{
+    width: 5rem;
+    background-color: beige;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color, .priority-color{
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.active{
+    border: 2px solid black;
+}
+.pink{
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.green{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.yellow{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.plus, .delete{
+    cursor: pointer;
+}
+
+.task{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    width: 30rem;
+    height: 15rem;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    display: none;
+}
+
+.enter{
+    width: 20rem;
+    background-color: #D5D8DC;
+    /* border: 2px solid black; */
+}
+
+.pick-color{
+    width: 8rem;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.choose{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20rem;
+}
+
+.input{
+    width: 19.75rem;
+    background-color: #D5D8DC;
+    height: 13rem;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.main-content{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.ticket-cont{
+    width: 15rem;
+    height: 10rem;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;  
+}
+
+.ticket-color{
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.ticket-id{
+    width: 15rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.task-area{
+    height: 5rem;
+    padding: 0.5rem;
+    overflow: auto;
+    outline: none;
+}
+
+.lock-unlock{
+    margin-left: 13rem;
+    font-size: 1.5rem;
+    height: 1.5rem;
+}
